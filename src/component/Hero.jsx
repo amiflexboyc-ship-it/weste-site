@@ -66,7 +66,7 @@ const Hero = () => {
               <img
                 src={animal.img}
                 alt={animal.name}
-                className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-2 border-white/40"
+                className="w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-2 sm:text-4xl npm md:text-5xlborder-white/40"
               />
 
               <p className="mt-4 font-light">{animal.name}</p>
